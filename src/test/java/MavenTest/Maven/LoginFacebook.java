@@ -9,6 +9,7 @@ public class LoginFacebook
 	public static WebDriver driver;
 	public void setup()
 	{	
+		System.out.println("launch browser");
 		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/login");
